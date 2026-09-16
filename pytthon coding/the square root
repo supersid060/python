@@ -1,0 +1,3 @@
+num=int(input("enter number from user"))
+unsquare=num**0.5
+print(unsquare)
