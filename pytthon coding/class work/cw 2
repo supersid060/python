@@ -1,0 +1,9 @@
+print("Enter marks of 4 subject")
+math=int(input("enter your math marks"))
+hindi=int(input("enter your hindi marks"))
+english=int(input("enter your english marks"))
+science=int(input("enter your science marks"))
+sum=math+science+english+hindi
+print("sum of scores is:" ,sum)
+average=(sum/400)*100
+print("average of scores is:" ,average)
