@@ -1,0 +1,7 @@
+Amount=int(input("Please enter amount for withdraw :"))
+note1=Amount//100
+note2=(Amount%100)//50
+note3=((Amount%100)%50)//10
+print("100 rupees notes are:" ,note1)
+print("50 rupees notes are:" ,note2)
+print("10 rupees notes are:" ,note3)
