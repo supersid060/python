@@ -1,5 +1,5 @@
-time = 200
-if 185<time<255 : 
-    print("time is in summer")
+temp = 64
+if 85<time : 
+    print("temp is in summer")
 else :
-    print("time is not in summer")
+    print("temp is not in summer")
