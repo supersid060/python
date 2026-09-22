@@ -5,3 +5,9 @@ note3=((Amount%100)%50)//10
 print("100 rupees notes are:" ,note1)
 print("50 rupees notes are:" ,note2)
 print("10 rupees notes are:" ,note3)
+note4=(((Amount%100)%50)%10)//5
+note5=((((Amount%100)%50)%10)%5)//1
+print("5 rupee notes are:" ,note4)
+print("1 rupee notes are:" ,note5)
+note17=Amount//500
+print("500 rupee notes are:" ,note17)

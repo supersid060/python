@@ -1,4 +1,4 @@
-print("Enter marks of 4 subject")
+prin("Enter marks of 4 subject")
 math=int(input("enter your math marks"))
 hindi=int(input("enter your hindi marks"))
 english=int(input("enter your english marks"))
@@ -7,3 +7,13 @@ sum=math+science+english+hindi
 print("sum of scores is:" ,sum)
 average=(sum/400)*100
 print("average of scores is:" ,average)
+old 
+new 
+print("Enter marks of 7 subject")
+math=int(input("enter your math scores"))
+writing=int(input("enter your writing scores"))
+science=int(input("enter your science scores"))
+hindi=int(input("enter your hindi scores"))
+history=int(input("enter your history scores"))
+english=int(input("enter your english scores"))
+p.e=int(input("enter your p.e scores"))
