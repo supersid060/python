@@ -1,8 +1,8 @@
 # Prompt the user for a decimal number
-num = int(input("Enter a decimal number: "))
+num = int(input("Enter a decimal number you want to turn into binary: "))
 
 if num == 0:
-    print("Binary representation: 0")
+    print("Binary is: 0")
 else:
     power = 0
     temp = num
@@ -18,6 +18,6 @@ else:
         else:
             binary_str += "0"
 
-    print(f"Decimal: {num}")
+    
     print(f"Binary: {binary_str}")
 
