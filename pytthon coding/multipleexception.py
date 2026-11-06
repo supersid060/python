@@ -1,5 +1,5 @@
 try:
-    num1,num2=eval(input("please enter two numbers:"))
+num1,num2=eval(input("please enter two numbers:"))
     answer=num1/num2
     print("answer is:", answer)
 except ZeroDivisionError:
