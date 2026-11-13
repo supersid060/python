@@ -1,0 +1,9 @@
+my_list1=[]
+print(my_list1)
+my_list2=[1,2,3,4,5]
+print(my_list2)
+my_list3=[1,2,3]*3
+print(my_list3)
+my_list4=[100,200,300,400,500]
+my_list4=my_list4[::-1]
+print(my_list4,"\n")
